@@ -1,0 +1,18 @@
+{
+  "name": "reddit-sentiments",
+  "version": "0.0.1",
+  "description": "A thingy that looks at people's reddit comments to see how they feel about a certain topic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "epswartz@ncsu.edu",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "circular-json": "^0.3.3",
+    "express": "^4.16.1",
+    "redwrap": "0.0.4"
+  }
+}
